@@ -1,0 +1,14 @@
+.item__contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item__contact:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.contact__btn {
+  height: 20px;
+  width: 80px;
+  margin-left: 10px;
+}
